@@ -16,3 +16,16 @@
   display: grid;
   grid-gap: 20px 10px;
 }
+
+p {
+  background-color: mistyrose;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap")
+body {
+  font-family: "Open Sans", work sans;
+}
+
+main {
+  padding: 0.15%;
+}
