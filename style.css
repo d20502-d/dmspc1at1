@@ -20,7 +20,12 @@
 .block h2 {
   font-size: 1.13rem;
   font-weight: 700;
+  margin-top: 5px;
   margin-bottom: 10px;
+  padding-left: 0px;
+}
+.block p {
+  margin-bottom: 0px;
   padding-left: 0px;
 }
 h1 {
@@ -29,7 +34,9 @@ h1 {
 }
 h2 {
   margin-bottom: 0px;
-  padding-left: 15px;
+}
+p {
+  padding-left: 20px;
 }
 @media (max-width: 900px) {
   .block-row {
@@ -42,4 +49,9 @@ h2 {
 }
 body {
   font-family: "Times New Roman", Times, serif;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0 25px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
